@@ -1,8 +1,8 @@
 # Fixed Income Researcher
 
 ### Education
-Philosophy, BA
-Biology, BS
+- Philosophy, BA
+- Biology, BS
 
 ### Work Experience
 Fixed Income Researcher @ Conning Inc. 
