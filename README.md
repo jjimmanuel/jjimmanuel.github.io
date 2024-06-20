@@ -1,4 +1,4 @@
-# Investment Research and Data Science
+# Data Science and Investment Research
 Technical Skills: TensorFlow,NumPy, Pandas, Scikit-learn, R, SQL/NoSQL, Snowflake, SPSS, JMP/JSL, VBA, Hypothesis Testing, Regression Analysis, Experimental Design, PowerBI, Exploratory Data Analysis, Classification, LLMs
 
 ### Education
