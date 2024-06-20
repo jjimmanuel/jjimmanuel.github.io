@@ -51,13 +51,18 @@ Technical Skills: TensorFlow,NumPy, Pandas, Scikit-learn, R, SQL/NoSQL, Snowflak
 - Built a DCF framework in Python that utilizes Monte Carlo methods to simulate valuations given normally distributed EBITDA Margins, Revenue Growth, and Net Working Capital
 
 ### Projects to be Completed by Year End 2024
+**Bond Retriever -- RAG Agent for Municipal Bond Documents**
+- Building a RAG application utilizing LlamaIndex, Llama 2, and an open-source embedding model that is being fine-tuned on QA pairs from municipal bond documents
+- Currently generating thousands of QA pairs from hundreds on bond documents using gemini-flash
+
 **ProGemma -- A Gemma LLM Fine-Tuned on Protein Sequences**
 - Fine-tuning a Gemma LLM using the Transformers library to generate novel, yet functional, amino acid sequences, a key application in protein engineering
 - Built a custom BPE tokenizer trained on comprehensive dataset of amino acids, chemical names, and biological terms to enable efficient model training
 - Processed and managed large-scale biological datasets to train and evaluate the model
 
-**Bond Retriever -- RAG Agent for Municipal Bond Documents**
-- Building a RAG application utilizing LlamaIndex, Llama 2, and an open-source embedding model that is being fine-tuned on QA pairs from municipal bond documents
+**OncoVision -- Cancer Identification in Microscope Slide Images**
+- Breaking ground on training/fine-tuning a vision model to identify different types of cancer from microscope slides
+- Currently in the data collection phase; pulling image data from open source sites
 
 ### Publications
 Citroen, K. & **Immanuel, J.** (2024). State of the States: Municipal Bond Credit Perspectives [White paper]. Conning Inc. 
@@ -67,7 +72,7 @@ Citroen, K. & **Immanuel, J.** (2023). State of the States: Municipal Bond Credi
 
 Feinn, R., Bermudez-Millan, A., Berthold, S. M., Buckley, T., **Emmanuel, J.**, Fraser-King, L., Horn, I. S., Keuky, L., Kong, S., Kuoch, T., O'Donnell, S., Read, J. P., Scully, M., & Wagner, J. (2021). Relationship of alcohol use and facial flushing to blood pressure and hba1c among Cambodian populations with dysglycemia in the U.S. and in Cambodia. Diabetes & Metabolic Syndrome: Clinical Research & Reviews, 102374. https://doi.org/10.1016/j.dsx.2021.102374
 
-Bagdas D, Rupprecht LE, Nunes EJ, Schillinger E, **Immanuel JJ**, Addy NA. Effects of Cherry and Vanilla Flavorants on Oral Nicotine Liking and Disliking in Rats. In: The Society for Research on Nicotine and Tobacco 26th Annual Meeting; 2020 Mar 11-14; New Orleans, LA. 
+Bagdas D, Rupprecht LE, Nunes EJ, Schillinger E, **Immanuel JJ**, Addy NA. Effects of Cherry and Vanilla Flavorants on Oral Nicotine Liking and Disliking in Rats. In: The Society for Research on Nicotine and Tobacco 26th Annual Meeting; 2020 Mar 11-14; New Orleans, LA. https://cdn.ymaws.com/www.srnt.org/resource/resmgr/conferences/2020_annual_meeting/SRNT20_Abstracts_NEW_0227202.pdf
 
 Bagdas, D., Rupprecht, L. E., Nunes, E. J., Schillinger, E., **Immanuel, J. J.**, & Addy, N. A. (2021). Evaluation of Flavor Effects on Oral Nicotine Liking and/or Disliking Using the Taste Reactivity Test in Rats. Nicotine & Tobacco Research. https://doi.org/10.1093/ntr/ntab241
 
