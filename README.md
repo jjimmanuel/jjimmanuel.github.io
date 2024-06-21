@@ -38,6 +38,11 @@
 - Work resulted in several peer-reviewed publications
 
 ## Completed Data Science and Artifical Intelligence Projects
+#### ***ViT_Breast_Cancer – Fine Tuned ViT on Breast Cancer Microscope Images***
+- Fine-tuned a ViT (google/vit-base-patch16-224) on a collection of approximately 7000 images of benign and cancerous breast tissue samples
+- Achieved strong performance with a loss of 0.007 in classifying malignant and benign tissues, potentially aiding in more accurate diagnoses
+- Open-sourced the model on Hugging Face for public use and commentary
+  
 #### ***SMILES_BERT -- A RoBERTa model Fine-Tuned on Chemical SMILES***
 - Fine-tuned a pre-trained RoBERTa model on a dataset of chemical SMILES strong to bridge the gap between natural language processing and drug discovery
 - Created and trained a custom Byte Pair Encoding (BPE) tokenizer to better handle the unique vocabulary, resulting in the elimination of ‘<unk> ’tokens
@@ -46,7 +51,9 @@
 
 #### ***Fixed Income Portfolio Optimizer***
 - Built a portfolio optimizer using the PuLP library in Python for fixed income instruments that maximizes portfolio yield for a given ratings, convexity, and duration target
-
+- The optimizer supplements discretionary portfolio construction with data-driven portfolio insights, which allows for more guided and precise decision making
+- Allows for a more streamlined implementation of specific portfolio strategies such as barbells, bullets, or ladders
+  
 #### ***Monte Carlo DCF Framework***
 - Built a DCF framework in Python that utilizes Monte Carlo methods to simulate valuations given normally distributed EBITDA Margins, Revenue Growth, and Net Working Capital
 
