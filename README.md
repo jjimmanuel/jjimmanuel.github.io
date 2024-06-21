@@ -61,7 +61,7 @@
 - Processed and managed large-scale biological datasets to train and evaluate the model
 
 #### ***OncoVision -- Cancer Identification in Microscope Slide Images***
-- Breaking ground on training/fine-tuning a vision model to identify different types of cancer from microscope slides
+- Breaking ground on training/fine-tuning vision models (CNNs and ViTs) to identify different types of cancer from microscope slides
 - Currently in the data collection phase; pulling image data from open source sites
 
 ## Publications
