@@ -63,13 +63,14 @@
 - Currently generating thousands of QA pairs from hundreds on bond documents using gemini-flash
 
 #### ***ProGemma -- A Gemma LLM Fine-Tuned on Protein Sequences***
-- Fine-tuning a Gemma LLM using the Transformers library to generate novel, yet functional, amino acid sequences, a key application in protein engineering
+- Training a GPT-2 model that I built from scratch in PyTorch to generate novel, yet functional, amino acid sequences, a key application in protein engineering
 - Built a custom BPE tokenizer trained on comprehensive dataset of amino acids, chemical names, and biological terms to enable efficient model training
 - Processed and managed large-scale biological datasets to train and evaluate the model
 
 #### ***OncoVision -- Cancer Identification in Microscope Slide Images***
 - Breaking ground on training/fine-tuning vision models (CNNs and ViTs) to identify different types of cancer from microscope slides
-- Currently in the data collection phase; pulling image data from open source sites
+- This project is essentially an extension of my pre-exisiting ViT_Breast Cancer model that I envision turning into a broad research tool
+- Currently in the data collection phase
 
 ## Publications
 *Citroen, K. & **Immanuel, J.** (2024). State of the States: Municipal Bond Credit Perspectives [White paper]. Conning Inc. 
