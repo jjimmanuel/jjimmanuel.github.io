@@ -63,7 +63,7 @@
 - Currently generating thousands of QA pairs from hundreds on bond documents using gemini-flash
 
 #### ***ProGemma -- A Gemma LLM Fine-Tuned on Protein Sequences***
-- Training a GPT-2 model that I built from scratch in PyTorch to generate novel, yet functional, amino acid sequences, a key application in protein engineering
+- Training a custom configuration of Google's Gemma LLM to generate novel, yet functional, amino acid sequences, a key application in protein engineering
 - Built a custom BPE tokenizer trained on comprehensive dataset of amino acids, chemical names, and biological terms to enable efficient model training
 - Processed and managed large-scale biological datasets to train and evaluate the model
 
