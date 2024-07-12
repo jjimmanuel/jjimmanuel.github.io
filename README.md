@@ -44,7 +44,7 @@
 - Open-sourced the model on Hugging Face for public use and commentary
   
 #### ***SMILES_BERT -- A RoBERTa model Fine-Tuned on Chemical SMILES***
-- Fine-tuned a pre-trained RoBERTa model on a dataset of chemical SMILES strong to bridge the gap between natural language processing and drug discovery
+- Trained a custom configuration of a RoBERTa model on a dataset of chemical SMILES strong to bridge the gap between natural language processing and drug discovery
 - Created and trained a custom Byte Pair Encoding (BPE) tokenizer to better handle the unique vocabulary, resulting in the elimination of ‘<unk> ’tokens
 - Customized the configuration of the base model to achieve a better compromise between available compute and model performance
 - Open-sourced the model on HuggingFace, achieving 3000+ downloads showing a contribution to the advancement of the computational biology/chemistry research
@@ -58,10 +58,6 @@
 - Built a DCF framework in Python that utilizes Monte Carlo methods to simulate valuations given normally distributed EBITDA Margins, Revenue Growth, and Net Working Capital
 
 ## Projects to be Completed by Year End 2024
-#### ***Bond Retriever -- RAG Agent for Municipal Bond Documents***
-- Building a RAG application utilizing LlamaIndex, Llama 2, and an open-source embedding model that is being fine-tuned on QA pairs from municipal bond documents
-- Currently generating thousands of QA pairs from hundreds on bond documents using gemini-flash
-
 #### ***ProGemma -- A Gemma LLM Fine-Tuned on Protein Sequences***
 - Training a custom configuration of Google's Gemma LLM to generate novel, yet functional, amino acid sequences, a key application in protein engineering
 - Built a custom BPE tokenizer trained on comprehensive dataset of amino acids, chemical names, and biological terms to enable efficient model training
@@ -71,6 +67,10 @@
 - Breaking ground on training/fine-tuning vision models (CNNs and ViTs) to identify different types of cancer from microscope slides
 - This project is essentially an extension of my pre-exisiting ViT_Breast Cancer model that I envision turning into a broad research tool
 - Currently in the data collection phase
+
+#### ***Bond Retriever -- RAG Agent for Municipal Bond Documents***
+- Building a RAG application utilizing LlamaIndex, Llama 2, and an open-source embedding model that is being fine-tuned on QA pairs from municipal bond documents
+- Currently generating thousands of QA pairs from hundreds on bond documents using gemini-flash
 
 ## Publications
 *Citroen, K. & **Immanuel, J.** (2024). State of the States: Municipal Bond Credit Perspectives [White paper]. Conning Inc. 
