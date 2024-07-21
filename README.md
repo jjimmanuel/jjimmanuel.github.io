@@ -38,6 +38,10 @@
 - Work resulted in several peer-reviewed publications
 
 ## Completed Data Science and Artifical Intelligence Projects
+#### ***ViT_Skin_Cancer – Fine Tuned ViT on Skin Cancer Images***
+- Fine-tuned a ViT (google/vit-base-patch16-224) on a collection of benign and cancerous skin cancer photographs
+- Open-sourced the model on Hugging Face for public use and commentary
+  
 #### ***ViT_Breast_Cancer – Fine Tuned ViT on Breast Cancer Microscope Images***
 - Fine-tuned a ViT (google/vit-base-patch16-224) on a collection of approximately 7000 images of benign and cancerous breast tissue samples
 - Achieved strong performance with a loss of 0.007 in classifying malignant and benign tissues, potentially aiding in more accurate diagnoses
