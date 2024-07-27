@@ -38,6 +38,12 @@
 - Work resulted in several peer-reviewed publications
 
 ## Completed Data Science and Artifical Intelligence Projects
+#### ***ProGemma - A Gemma 2 LLM Pre-Trained on Amino Acid Sequences of Length 0 - 512
+- Trained a custom configuration (275M) of the Gemma 2 LLM to generate novel amino acid sequences on a letter-by-letter basis, a key application in protein engineering
+- Built a custom BPE tokenizer to ensure efficient model training
+- Preliminary evaluation of generated sequences on AlphaFold 3 (AlphaFold Server) indicates pTM scores of around 0.5 and PLDDT scores > 60
+- Model improvements by using control tags is currently being investigated
+  
 #### ***ViT_Skin_Cancer – Fine Tuned ViT on Skin Cancer Images***
 - Fine-tuned a ViT (google/vit-base-patch16-224) on a collection of benign and cancerous skin cancer photographs
 - Open-sourced the model on Hugging Face for public use and commentary
@@ -62,11 +68,6 @@
 - Built a DCF framework in Python that utilizes Monte Carlo methods to simulate valuations given normally distributed EBITDA Margins, Revenue Growth, and Net Working Capital
 
 ## Projects to be Completed by Year End 2024
-#### ***ProGemma -- A Gemma LLM Fine-Tuned on Protein Sequences***
-- Training a custom configuration of Google's Gemma LLM to generate novel, yet functional, amino acid sequences, a key application in protein engineering
-- Built a custom BPE tokenizer trained on comprehensive dataset of amino acids, chemical names, and biological terms to enable efficient model training
-- Processed and managed large-scale biological datasets to train and evaluate the model
-
 #### ***OncoVision -- Cancer Identification in Microscope Slide Images***
 - Breaking ground on training/fine-tuning vision models (CNNs and ViTs) to identify different types of cancer from microscope slides
 - This project is essentially an extension of my pre-exisiting ViT_Breast Cancer model that I envision turning into a broad research tool
