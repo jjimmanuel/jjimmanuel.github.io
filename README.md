@@ -38,7 +38,7 @@
 - Work resulted in several peer-reviewed publications
 
 ## Completed Data Science and Artifical Intelligence Projects
-#### ***ProGemma - A Gemma 2 LLM Pre-Trained on Amino Acid Sequences of Length 0 - 512
+#### ***ProGemma - A Gemma 2 LLM Pre-Trained on Amino Acid Sequences of Length 0 - 512***
 - Trained a custom configuration (275M) of the Gemma 2 LLM to generate novel amino acid sequences on a letter-by-letter basis, a key application in protein engineering
 - Built a custom BPE tokenizer to ensure efficient model training
 - Preliminary evaluation of generated sequences on AlphaFold 3 (AlphaFold Server) indicates pTM scores of around 0.5 and PLDDT scores > 60
