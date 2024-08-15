@@ -39,11 +39,10 @@
 
 ## Completed Data Science and Artifical Intelligence Projects
 #### ***ProGemma - A Gemma 2 LLM Pre-Trained on Amino Acid Sequences of Length 0 - 512***
-- Pre-trained a custom configuration (275M) of the Gemma 2 LLM to generate novel amino acid sequences on a letter-by-letter basis, a key application in protein engineering
+- Pre-training a custom configuration (275M) of the Gemma 2 LLM to generate novel amino acid sequences on a letter-by-letter basis, a key application in protein engineering
 - Built a custom BPE tokenizer to ensure efficient model training
-- Preliminary evaluation of generated sequences on AlphaFold 3 (AlphaFold Server) indicates pTM scores of around 0.5 and PLDDT scores > 60
-- Perplexity scores are on par with the widely adopted ProtGPT2 model
-- Model improvements by using control tags is currently being investigated
+- Preliminary evaluation shows perplexity and AlphaFold 3 scores are on par with the widely adopted ProtGPT2 model
+- Model is being continually pushed to HuggingFace when training checkpoints are reached
   
 #### ***ViT_Skin_Cancer – Fine Tuned ViT on Skin Cancer Images***
 - Fine-tuned a ViT (google/vit-base-patch16-224) on a collection of benign and cancerous skin cancer photographs
