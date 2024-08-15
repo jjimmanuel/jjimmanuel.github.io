@@ -39,9 +39,10 @@
 
 ## Completed Data Science and Artifical Intelligence Projects
 #### ***ProGemma - A Gemma 2 LLM Pre-Trained on Amino Acid Sequences of Length 0 - 512***
-- Trained a custom configuration (275M) of the Gemma 2 LLM to generate novel amino acid sequences on a letter-by-letter basis, a key application in protein engineering
+- Pre-trained a custom configuration (275M) of the Gemma 2 LLM to generate novel amino acid sequences on a letter-by-letter basis, a key application in protein engineering
 - Built a custom BPE tokenizer to ensure efficient model training
 - Preliminary evaluation of generated sequences on AlphaFold 3 (AlphaFold Server) indicates pTM scores of around 0.5 and PLDDT scores > 60
+- Perplexity scores are on par with the widely adopted ProtGPT2 model
 - Model improvements by using control tags is currently being investigated
   
 #### ***ViT_Skin_Cancer – Fine Tuned ViT on Skin Cancer Images***
@@ -68,14 +69,8 @@
 - Built a DCF framework in Python that utilizes Monte Carlo methods to simulate valuations given normally distributed EBITDA Margins, Revenue Growth, and Net Working Capital
 
 ## Projects to be Completed by Year End 2024
-#### ***OncoVision -- Cancer Identification in Microscope Slide Images***
-- Breaking ground on training/fine-tuning vision models (CNNs and ViTs) to identify different types of cancer from microscope slides
-- This project is essentially an extension of my pre-exisiting ViT_Breast Cancer model that I envision turning into a broad research tool
-- Currently in the data collection phase
-
-#### ***Bond Retriever -- RAG Agent for Municipal Bond Documents***
-- Building a RAG application utilizing LlamaIndex, Llama 2, and an open-source embedding model that is being fine-tuned on QA pairs from municipal bond documents
-- Currently generating thousands of QA pairs from hundreds on bond documents using gemini-flash
+#### ***GemmaRNA -- Controlled ncRNA Sequence Generation***
+- Pre-training a custom configuration of Google's Gemma 2 LLM on ncRNA sequences and GO annotations to make controlled generation based on function, location, and process
 
 ## Publications
 *Citroen, K. & **Immanuel, J.** (2024). State of the States: Municipal Bond Credit Perspectives [White paper]. Conning Inc. 
